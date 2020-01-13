@@ -1,0 +1,11 @@
+- mkdir ts-practice
+- cd ts-practice
+- yarn init -y
+
+- code .
+
+- yarn add typescript ts-node
+- yarn run tsc --init
+
+// .js로 만들지 않고 .ts 바로 실행하고 싶을 때
+yarn run ts-node ./src/practice.ts
